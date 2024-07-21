@@ -37,4 +37,4 @@ y_pred = knn_classifier.predict(X_test)
 
 # Evaluate accuracy
 accuracy = accuracy_score(y_test, y_pred)
-print("Accuracy:", accuracy)
+print("Accuracy=", accuracy)
